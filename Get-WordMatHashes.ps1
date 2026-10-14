@@ -32,13 +32,13 @@ $ProgressPreference    = "SilentlyContinue"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13
 
 $downloadUrls = @(
-    "https://www.wordmat.dk/download.php?file=WordMatP.exe&lang=da"
-    "https://www.wordmat.dk/download.php?file=WordMatNA.exe&lang=da"
-    "https://www.wordmat.dk/download.php?file=WordMatMacApple.pkg&lang=da"
-    "https://www.wordmat.dk/download.php?file=WordMatMacIntel.pkg&lang=da"
-    "https://www.wordmat.dk/download.php?file=WordMatALL.msi&lang=da"
-    "https://www.wordmat.dk/download.php?file=WordMatALL32bit.msi&lang=da"
-    "https://www.wordmat.dk/download.php?file=WordMatUSER.msi&lang=da"
+    "https://www.wordmat.dk/download.php?file=WordMatP.exe"
+    "https://www.wordmat.dk/download.php?file=WordMatNA.exe"
+    "https://www.wordmat.dk/download.php?file=WordMatMacApple.pkg"
+    "https://www.wordmat.dk/download.php?file=WordMatMacIntel.pkg"
+    "https://www.wordmat.dk/download.php?file=WordMatALL.msi"
+    "https://www.wordmat.dk/download.php?file=WordMatALL32bit.msi"
+    "https://www.wordmat.dk/download.php?file=WordMatUSER.msi"
 )
 $pageFiles = @("WordMat.dotm", "WordMatP.dotm", "WordMatP2.dotm")
 
@@ -218,4 +218,4 @@ Write-Host "TXT saved to: $TxtPath ($(@($hashesOnly).Count) hash values)"
 
 $results
 
-# v14102026 - Hoder Jensen - Fælles Digital - https://faellesdigital.dk - https://github.com/Erroneuz/WordmatHash/
+# v2026.10 - Hoder Jensen - Fælles Digital - https://faellesdigital.dk - https://github.com/Erroneuz/WordmatHash/
