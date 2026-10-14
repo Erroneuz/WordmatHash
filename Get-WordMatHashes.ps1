@@ -218,4 +218,4 @@ Write-Host "TXT saved to: $TxtPath ($(@($hashesOnly).Count) hash values)"
 
 $results
 
-# v14102026 - Hoder Jensen - Fælles Digital - https://faellesdigital.dk - https://github.com/Erroneuz/WordmatHash/
+# v2026.10 - Hoder Jensen - Fælles Digital - https://faellesdigital.dk - https://github.com/Erroneuz/WordmatHash/
